@@ -470,11 +470,12 @@ body {
 }
 .about-img{
   overflow: hidden;
+  max-width: 300px;
 }
 .about-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: auto;
+  height: auto;
+  /* object-fit: cover; */
   object-position: top;
 }
 .about-content {
@@ -695,6 +696,7 @@ footer {
     margin-top: 20px;
   }
 }
+
 
 
 
